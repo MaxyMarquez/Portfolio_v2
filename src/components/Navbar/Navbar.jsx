@@ -64,7 +64,7 @@ const Navbar = ({ targetIds }) => {
                                         <span
                                             className={`font-mono text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${id === activeSection ? 'text-white ' : 'text-slate-500'
                                                 }`}>
-                                            {t(id, console.log(id))}
+                                            {t(id)}
                                         </span>
                                     </a>
                                 </li>
