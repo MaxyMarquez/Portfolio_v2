@@ -7,16 +7,18 @@ const Projects = () => {
         <>
             <section
                 id='projects'
-                className='grid place-content-center h-screen scroll-smooth'
+                className='grid place-content-center py-20  scroll-smooth'
             >
+                <h1 className='text-4xl lg:text-5xl text-slate-300 m-5 font-mono border-b-4 border-red-400 w-max'>Projects</h1>
+
                 <a className='lg:flex gap-7 w-full p-4 hover:bg-[#ffffff33] rounded border border-transparent duration-300' href='https://trendy-web-lemon.vercel.app/' target='_blank'>
                     <picture className='bg-transparent'>
                         <img className='lg:w-52 border-2 rounded-md border-slate-500 mt-2 bg-[#ffffff33]' src={trendy} alt="" />
                     </picture>
                     <div className='lg:w-3/4 mt-2 lg:mt-0 w-full bg-transparent'>
                         <h1 className='font-mono text-center lg:text-left text-slate-200 text-2xl bg-transparent'>Trendy Shop</h1>
-                        <p className='flex font-sans text-slate-400 text-base mt-2 bg-transparent'>E-commerce web application developed for the Soy Henry bootcamp as a final project. It has a store, login with Google, local login, create an account, shopping cart, favorites list and payment gateway with Paypal</p>
-                        <div className='flex justify-center gap-2 mt-4 bg-transparent'>
+                        <p className='flex font-sans text-slate-400 text-base mt-2 bg-transparent'>Web app e-commerce clothing store, group project carried out for the Soy Henry bootcamp.</p>
+                        <div className='flex justify-center lg:justify-start gap-2 mt-4 bg-transparent'>
                             <span className='relative group bg-transparent'>
                                 <Icon icon="vscode-icons:file-type-html" className='w-5 h-5 bg-transparent ' />
                                 <span

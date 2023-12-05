@@ -70,9 +70,9 @@ const Navbar = ({ targetIds }) => {
                     </nav>
                 </div>
                 <div className='flex  gap-4 mt-2 lg:mt-0'>
-                    <a href="" className='group'><FaGithub className='w-6 h-6 text-slate-500 group-hover:text-white duration-200' /></a>
-                    <a href="" className='group'><FaLinkedinIn className='w-6 h-6 text-slate-500 group-hover:text-white duration-200' /></a>
-                    <a href="" className='group'><FaAt className='w-6 h-6 text-slate-500 group-hover:text-white duration-200' /></a>
+                    <a href="https://github.com/MaxyMarquez" target='_black' className='group'><FaGithub className='w-6 h-6 text-slate-500 group-hover:text-white duration-200' /></a>
+                    <a href="https://www.linkedin.com/in/maximiliano-marquez-519274183/" target='_black' className='group'><FaLinkedinIn className='w-6 h-6 text-slate-500 group-hover:text-white duration-200' /></a>
+                    <a href='mailto:maxy.marquez90@gmail.com' target='_black' className='group'><FaAt className='w-6 h-6 text-slate-500 group-hover:text-white duration-200' /></a>
                 </div>
             </header>
         </>

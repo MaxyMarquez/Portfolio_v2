@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import About from '../About/About';
 import Projects from '../Projects/Projects'
 import Skills from '../Skills/Skills';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     const sectionIds = ['about', 'skills', 'projects', 'contact'];
@@ -21,6 +22,9 @@ const Home = () => {
                     </div>
                     <div id='projects'>
                         <Projects />
+                    </div>
+                    <div id='contact'>
+                        <Contact />
                     </div>
                 </div>
             </div>
