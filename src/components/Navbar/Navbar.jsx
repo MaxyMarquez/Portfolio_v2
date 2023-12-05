@@ -62,7 +62,7 @@ const Navbar = ({ targetIds }) => {
                                             className={`mr-4 h-px transition-all group-hover:w-16 group-hover:bg-white group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none ${id === activeSection ? 'mr-4 h-px w-16 bg-white ' : 'bg-slate-500 w-8'
                                                 }`}></span>
                                         <span
-                                            className={`font-mono text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${id === activeSection ? 'text-white ' : 'text-slate-500'
+                                            className={`font-mono text-sm font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${id === activeSection ? 'text-white ' : 'text-slate-500'
                                                 }`}>
                                             {t(id)}
                                         </span>
