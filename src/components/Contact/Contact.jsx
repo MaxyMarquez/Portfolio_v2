@@ -1,7 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+    const { t } = useTranslation();
+
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -35,29 +38,28 @@ const Contact = () => {
         <>
             <section id='contact' className='grid place-content-center w-full py-5'>
                 <h1 className='text-center text-red-400 text-3xl lg:text-5xl font-mono '>
-                    Send me a message!
+                    {t('contact.title')}
                 </h1>
                 <h2 className='text-slate-500 text-2xl text-center mt-3 px-5'>
-                    Got a question or proposal, or just want
-                    to say hello? Go ahead.
+                    {t('contact.subtitle')}
                 </h2>
                 <form className='flex flex-col p-0 lg:p-10 gap-2' onSubmit={handleSubmit}>
                     <label className='text-slate-300 text-xl'>
-                        Name:
+                        {t('contact.labels.name')}
                     </label>
                     <input className='text-slate-400 border border-slate-400 focus:outline-none focus:bg-slate-400 focus:text-slate-900 p-2 duration-300' type="text" value={name} onChange={(e) => setName(e.target.value)} />
-                    <br />
+
                     <label className='text-slate-300 text-xl'>
-                        Email Address:
+                        {t('contact.labels.email')}
                     </label>
                     <input className='text-slate-400 border border-slate-400 focus:outline-none focus:bg-slate-400 focus:text-slate-900 p-2 duration-300' type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-                    <br />
+
                     <label className='text-slate-300 text-xl'>
-                        Messaje:
+                        {t('contact.labels.message')}
                     </label>
                     <textarea className='h-32 resize-none border border-slate-400 focus:outline-none focus:bg-slate-400 focus:text-slate-900 p-2 duration-300' value={message} onChange={(e) => setMessage(e.target.value)} />
-                    <br />
-                    <button className='border border-slate-400 bg-slate-400 p-1 hover:bg-red-400 hover:text-slate-800 duration-300' type="submit">Send me a message</button>
+
+                    <button className='border border-slate-400 bg-slate-400 p-1 hover:bg-red-400 hover:text-slate-800 duration-300' type="submit">{t('contact.button')}</button>
                 </form>
             </section>
         </>

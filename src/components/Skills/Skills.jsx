@@ -1,11 +1,15 @@
 import React from 'react'
 import { Icon } from '@iconify/react';
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
+    const { t } = useTranslation();
     return (
         <>
             <section id='skills' className=' mt-20'>
-                <h1 className='text-4xl lg:text-5xl text-slate-300 m-5 font-mono border-b-4 border-red-400 w-max'>Skills</h1>
+                <h1 className='text-4xl lg:text-5xl text-slate-300 m-5 font-mono border-b-4 border-red-400 w-max'>
+                    {t('skills.title')}
+                </h1>
                 <div className='flex flex-col bg-transparent p-5 gap-4' >
                     <h1 className='font-mono text-2xl text-slate-400 border-b border-slate-400 w-max'>Frontend</h1>
                     <div className='flex flex-wrap gap-4'>
