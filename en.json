@@ -29,7 +29,9 @@
     "projects": {
         "title": "Projects",
         "trendyShop": "Trendy Shop",
-        "trendyShopDescription": "Web app e-commerce clothing store, group project carried out for the Soy Henry bootcamp."
+        "trendyShopDescription": "Web app e-commerce clothing store, group project carried out for the Soy Henry bootcamp.",
+        "ToDo": "ToDo List",
+        "ToDoDescription": "Web app to-do list, where you can add, edit, delete and change the status of the task, the data is stored in localStorage for data persistence"
     },
     "formErrors": {
         "generic": "Something went wrong. Please try again later."

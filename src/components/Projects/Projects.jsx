@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Icon } from '@iconify/react';
 import trendy from '../../assets/trendy.png';
+import ToDoList from '../../assets/ToDoList.png';
 
 const Projects = () => {
     const { t } = useTranslation();
@@ -63,9 +64,6 @@ const Projects = () => {
                                     Bootstrap
                                 </span>
                             </span>
-
-
-
                             <span className='relative group bg-transparent'>
                                 <Icon icon="devicon:javascript" className='w-5 h-5 bg-transparent' />
                                 <span
@@ -95,6 +93,49 @@ const Projects = () => {
                                     PostgreSQL
                                 </span>
                             </span>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    className='lg:flex gap-7 w-full p-4 hover:bg-[#ffffff33] rounded border border-transparent duration-300'
+                    href='https://to-do-list-maxymarquez.vercel.app/'
+                    target='_blank'
+                >
+                    <picture className='bg-transparent'>
+                        <img className='lg:w-52 lg:h-32 border-2 rounded-md border-slate-500 mt-2 bg-[#ffffff33]' src={ToDoList} alt='' />
+                    </picture>
+                    <div className='lg:w-3/4 mt-2 lg:mt-0 w-full bg-transparent'>
+                        <h1 className='font-mono text-center lg:text-left text-slate-200 text-2xl bg-transparent'>
+                            {t('projects.ToDo')}
+                        </h1>
+                        <p className='flex font-sans text-slate-400 text-base mt-2 bg-transparent'>
+                            {t('projects.ToDoDescription')}
+                        </p>
+                        <div className='flex justify-center lg:justify-start gap-2 mt-4 bg-transparent'>
+                            <span className='relative group bg-transparent'>
+                                <Icon icon="devicon:react-wordmark" className='w-5 h-5 bg-transparent' />
+                                <span
+                                    className="absolute hidden group-hover:flex -top-3 -translate-y-full w-max p-2 bg-gray-700 rounded-lg text-center text-white text-sm transform -translate-x-1/2 left-1/2 after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+                                    React
+                                </span>
+                            </span>
+                            <span className='relative group bg-transparent'>
+                                <Icon icon="vscode-icons:file-type-tailwind" className='w-5 h-5 bg-transparent' />
+                                <span
+                                    className="absolute hidden group-hover:flex -top-3 -translate-y-full w-max p-2 bg-gray-700 rounded-lg text-center text-white text-sm transform -translate-x-1/2 left-1/2 after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+                                    Tailwind CSS
+                                </span>
+                            </span>
+                            <span className='relative group bg-transparent'>
+                                <Icon icon="devicon:javascript" className='w-5 h-5 bg-transparent' />
+                                <span
+                                    className="absolute hidden group-hover:flex -top-3 -translate-y-full w-max p-2 bg-gray-700 rounded-lg text-center text-white text-sm transform -translate-x-1/2 left-1/2 after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+                                    JavaScript
+                                </span>
+                            </span>
+
+
                         </div>
                     </div>
                 </a>
