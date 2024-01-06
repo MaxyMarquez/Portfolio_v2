@@ -7,11 +7,11 @@ const Skills = () => {
     return (
         <>
             <section id='section2' className='pt-20'>
-                <h1 className='text-4xl lg:text-5xl text-slate-300 m-5 font-mono border-b-4 border-red-400 w-max'>
+                <h1 className='text-4xl lg:text-5xl text-slate-300 my-5 font-mono border-b-4 border-red-400 w-max'>
                     {t('skills.title')}
                 </h1>
-                <div className='flex flex-col bg-transparent p-5 gap-4' >
-                    <div className='flex flex-wrap gap-4'>
+                <div className='flex flex-col bg-transparent py-5' >
+                    <div className='flex flex-wrap gap-7'>
                         <span className='relative group bg-transparent'>
                             <Icon icon="vscode-icons:file-type-html" className='w-10 h-10 lg:w-20 lg:h-20 group-hover:scale-125 group-hover:rotate-2 duration-300' />
                             <span
