@@ -31,7 +31,9 @@
         "trendyShop": "Trendy Shop",
         "trendyShopDescription": "Web app e-commerce clothing store, group project carried out for the Soy Henry bootcamp.",
         "ToDo": "ToDo List",
-        "ToDoDescription": "Web app to-do list, where you can add, edit, delete and change the status of the task, the data is stored in localStorage for data persistence"
+        "ToDoDescription": "Web app to-do list, where you can add, edit, delete and change the status of the task, the data is stored in localStorage for data persistence",
+        "wordle": "Wordle Clone",
+        "wordleDescription": "I developed an interactive clone of the popular word game 'Wordle' using modern web technologies. I utilized React for building the front-end, leveraging its reusable components and efficient state management. The game's styling was achieved through the use of SCSS"
     },
     "formErrors": {
         "generic": "Something went wrong. Please try again later."

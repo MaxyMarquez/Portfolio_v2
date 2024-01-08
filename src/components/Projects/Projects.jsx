@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Icon } from '@iconify/react';
 import trendy from '../../assets/trendy.png';
 import ToDoList from '../../assets/ToDoList.png';
+import wordle from '../../assets/wordle.png';
 
 const Projects = () => {
     const { t } = useTranslation();
@@ -90,6 +91,7 @@ const Projects = () => {
                                     </span>
                                 </span>
                             </div>
+
                         </div>
                     </picture>
 
@@ -136,6 +138,47 @@ const Projects = () => {
                         </div>
                     </picture>
 
+                </a>
+                <a
+                    className='lg:flex w-full p-4 hover:bg-[#ffffff33] rounded border border-transparent duration-300'
+                    href='https://wordle-clone-coral.vercel.app/'
+                    target='_blank'
+                >
+                    <picture className='bg-transparent w-full'>
+                        <p className='font-mono text-center lg:text-left text-slate-200 text-2xl bg-transparent'>
+                            {t('projects.wordle')}
+                        </p>
+                        <img className='lg:w-full lg:h-72 border-2 rounded-md border-slate-500 mt-2 bg-[#ffffff33] object-cover' src={wordle} alt='' />
+                        <div className='mt-2 lg:mt-0 w-full bg-transparent'>
+
+                            <p className='flex font-sans text-slate-400 text-base mt-2 bg-transparent'>
+                                {t('projects.wordleDescription')}
+                            </p>
+                            <div className='flex justify-center lg:justify-start gap-2 mt-4 bg-transparent'>
+                                <span className='relative group bg-transparent'>
+                                    <Icon icon="devicon:react-wordmark" className='w-5 h-5 bg-transparent' />
+                                    <span
+                                        className="absolute hidden group-hover:flex -top-3 -translate-y-full w-max p-2 bg-gray-700 rounded-lg text-center text-white text-sm transform -translate-x-1/2 left-1/2 after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+                                        React
+                                    </span>
+                                </span>
+                                <span className='relative group bg-transparent'>
+                                    <Icon icon="logos:sass" className='w-5 h-5 bg-transparent' />
+                                    <span
+                                        className="absolute hidden group-hover:flex -top-3 -translate-y-full w-max p-2 bg-gray-700 rounded-lg text-center text-white text-sm transform -translate-x-1/2 left-1/2 after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+                                        Sass: Syntactically Awesome Style Sheets
+                                    </span>
+                                </span>
+                                <span className='relative group bg-transparent'>
+                                    <Icon icon="devicon:javascript" className='w-5 h-5 bg-transparent' />
+                                    <span
+                                        className="absolute hidden group-hover:flex -top-3 -translate-y-full w-max p-2 bg-gray-700 rounded-lg text-center text-white text-sm transform -translate-x-1/2 left-1/2 after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+                                        JavaScript
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </picture>
                 </a>
             </section>
         </>

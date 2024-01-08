@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FaGithub, FaLinkedinIn, FaAt } from 'react-icons/fa';
+import { RiFileUserLine } from "react-icons/ri";
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from '../LenguageSelector/LenguageSelector';
+import cv from '../../assets/Marquez_Maximiliano.pdf'
 
 const Navbar = ({ targetIds }) => {
     const { t } = useTranslation();
@@ -82,8 +84,12 @@ const Navbar = ({ targetIds }) => {
                     <a href='mailto:maxy.marquez90@gmail.com' target='_blank' className='group'>
                         <FaAt className='w-6 h-6 text-slate-500 group-hover:text-white duration-200' />
                     </a>
+                    <a href={cv} target="_blank" download="Marquez_Maximiliano.pdf" className='group flex gap-1'>
+                        <RiFileUserLine className='w-6 h-6 text-slate-500 group-hover:text-white duration-200' />
+                        <p className='text-slate-500 group-hover:text-white duration-200'>Curriculum Vitae</p>
+                    </a>
                 </div>
-            </header>
+            </header >
         </>
     );
 };
