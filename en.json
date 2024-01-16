@@ -28,6 +28,8 @@
     },
     "projects": {
         "title": "Projects",
+        "food": "PI Food - Soy Henry",
+        "foodDescription": "I developed an application during my Soy Henry bootcamp, utilizing technologies such as React, Redux, Node.js, Express, Sequelize, and PostgreSQL. The application leverages the Spoonacular API for recipe search and filtering, providing comprehensive details on ingredients and preparation steps. It stands out by enabling users to create and save their custom recipes in a database. This project showcases my skills in both frontend and backend development, along with my ability to integrate external APIs, delivering an interactive and personalized culinary experience.",
         "trendyShop": "Trendy Shop",
         "trendyShopDescription": "Web app e-commerce clothing store, group project carried out for the Soy Henry bootcamp.",
         "ToDo": "ToDo List",

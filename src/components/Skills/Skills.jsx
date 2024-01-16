@@ -77,6 +77,13 @@ const Skills = () => {
                             </span>
                         </span>
                         <span className='relative group bg-transparent'>
+                            <Icon icon="simple-icons:express" className='w-10 h-10 lg:w-20 lg:h-20 group-hover:scale-125 group-hover:rotate-2 duration-300' />
+                            <span
+                                className="absolute hidden group-hover:flex -top-3 -translate-y-full w-max p-2 bg-gray-700 rounded-lg text-center text-white text-sm transform -translate-x-1/2 left-1/2 after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
+                                Express
+                            </span>
+                        </span>
+                        <span className='relative group bg-transparent'>
                             <Icon icon="logos:sequelize" className='w-10 h-10 lg:w-20 lg:h-20 group-hover:scale-125 group-hover:-rotate-2 duration-300' />
                             <span
                                 className="absolute hidden group-hover:flex -top-3 -translate-y-full w-max p-2 bg-gray-700 rounded-lg text-center text-white text-sm transform -translate-x-1/2 left-1/2 after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">

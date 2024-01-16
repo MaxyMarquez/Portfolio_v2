@@ -28,6 +28,8 @@
     },
     "projects": {
         "title": "Proyectos",
+        "food": "Projecto Individual - Soy Henry",
+        "foodDescription": "Desarrollé una aplicación durante mi bootcamp en Soy Henry, empleando tecnologías como React, Redux, Node.js, Express, Sequelize y PostgreSQL. La aplicación utiliza la API Spoonacular para buscar y filtrar recetas, proporcionando detalles completos sobre ingredientes y pasos de preparación. Destaca por permitir a los usuarios crear y guardar sus propias recetas personalizadas en una base de datos. Este proyecto demuestra mis habilidades en desarrollo frontend y backend, así como mi capacidad para integrar APIs externas, brindando una experiencia culinaria interactiva y personalizada.",
         "trendyShop": "Trendy Shop",
         "trendyShopDescription": "Tienda de ropa e-commerce, proyecto grupal realizado para el bootcamp de Soy Henry.",
         "ToDo": "Lista de Tareas",
