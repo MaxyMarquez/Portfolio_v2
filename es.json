@@ -1,43 +1,45 @@
 {
-    "name": "Marquez Maximiliano",
-    "role": "Desarrollador Full Stack",
-    "section1": "Acerca de",
-    "section2": "Habilidades",
-    "section3": "Proyectos",
-    "section4": "Contacto",
-    "about": {
-        "paragraph1": "¡Hola! Soy Maximiliano, un programador entusiasta ansioso por explorar emocionantes oportunidades laborales para comenzar mi viaje en el mundo tecnológico. Me destaco por mi pasión y compromiso con la programación, donde he desarrollado fuertes habilidades en HTML, CSS, JavaScript, React, Redux, Node.js, Sequelize y PosgreSQL.",
-        "paragraph2": "Mi capacidad para adaptarme rápidamente al entorno laboral y mi disposición para aprender continuamente son aspectos que considero cruciales para mi crecimiento profesional. Soy una persona proactiva y dedicada, siempre lista para asumir nuevos desafíos y abordarlos con determinación.",
-        "paragraph3": "Fuera del mundo de la programación, me encanta mantener un estilo de vida activo. Practicar deportes no solo me ayuda a mantener un equilibrio saludable entre mente y cuerpo, sino que también refuerza mi capacidad para trabajar en equipo y alcanzar metas comunes.",
-        "paragraph4": "Estoy emocionado por la oportunidad de contribuir mi pasión por la programación y mi deseo de aprender a un equipo dinámico. ¡Espero aplicar mis habilidades y continuar mi desarrollo profesional en un entorno estimulante!"
+  "name": "Marquez Maximiliano",
+  "role": "Desarrollador Full Stack",
+  "section1": "Acerca de",
+  "section2": "Habilidades",
+  "section3": "Proyectos",
+  "section4": "Contacto",
+  "about": {
+    "paragraph1": "¡Hola! Soy Maximiliano, un programador entusiasta ansioso por explorar emocionantes oportunidades laborales para comenzar mi viaje en el mundo tecnológico. Me destaco por mi pasión y compromiso con la programación, donde he desarrollado fuertes habilidades en HTML, CSS, JavaScript, React, Redux, Node.js, Sequelize y PosgreSQL.",
+    "paragraph2": "Mi capacidad para adaptarme rápidamente al entorno laboral y mi disposición para aprender continuamente son aspectos que considero cruciales para mi crecimiento profesional. Soy una persona proactiva y dedicada, siempre lista para asumir nuevos desafíos y abordarlos con determinación.",
+    "paragraph3": "Fuera del mundo de la programación, me encanta mantener un estilo de vida activo. Practicar deportes no solo me ayuda a mantener un equilibrio saludable entre mente y cuerpo, sino que también refuerza mi capacidad para trabajar en equipo y alcanzar metas comunes.",
+    "paragraph4": "Estoy emocionado por la oportunidad de contribuir mi pasión por la programación y mi deseo de aprender a un equipo dinámico. ¡Espero aplicar mis habilidades y continuar mi desarrollo profesional en un entorno estimulante!"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "frontend": "Frontend",
+    "backend": "Backend"
+  },
+  "contact": {
+    "title": "¡Envíame un mensaje!",
+    "subtitle": "¿Tienes alguna pregunta o propuesta, o simplemente quieres saludar? Adelante.",
+    "labels": {
+      "name": "Nombre:",
+      "email": "Correo electrónico:",
+      "message": "Mensaje:"
     },
-    "skills": {
-        "title": "Habilidades",
-        "frontend": "Frontend",
-        "backend": "Backend"
-    },
-    "contact": {
-        "title": "¡Envíame un mensaje!",
-        "subtitle": "¿Tienes alguna pregunta o propuesta, o simplemente quieres saludar? Adelante.",
-        "labels": {
-            "name": "Nombre:",
-            "email": "Correo electrónico:",
-            "message": "Mensaje:"
-        },
-        "button": "Envíame un mensaje"
-    },
-    "projects": {
-        "title": "Proyectos",
-        "food": "Projecto Individual - Soy Henry",
-        "foodDescription": "Desarrollé una aplicación durante mi bootcamp en Soy Henry, empleando tecnologías como React, Redux, Node.js, Express, Sequelize y PostgreSQL. La aplicación utiliza la API Spoonacular para buscar y filtrar recetas, proporcionando detalles completos sobre ingredientes y pasos de preparación. Destaca por permitir a los usuarios crear y guardar sus propias recetas personalizadas en una base de datos. Este proyecto demuestra mis habilidades en desarrollo frontend y backend, así como mi capacidad para integrar APIs externas, brindando una experiencia culinaria interactiva y personalizada.",
-        "trendyShop": "Trendy Shop",
-        "trendyShopDescription": "Tienda de ropa e-commerce, proyecto grupal realizado para el bootcamp de Soy Henry.",
-        "ToDo": "Lista de Tareas",
-        "ToDoDescription": "Aplicación web, en donde tu puedes agregar, editar, borrar y cambiar el estado de la tarea, los datos se almacenan en localStorage para la persistencia de datos",
-        "wordle": "Clon de Wordle",
-        "wordleDescription": "Desarrollé un clon interactivo del popular juego de palabras 'Wordle' utilizando tecnologías web modernas. Utilicé React para la construcción del front-end, aprovechando sus componentes reutilizables y su eficiente manejo del estado. La estilización del juego se logró mediante el uso de SCSS"
-    },
-    "formErrors": {
-        "generic": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
-    }
+    "button": "Envíame un mensaje"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "food": "Projecto Individual - Soy Henry",
+    "foodDescription": "Desarrollé una aplicación durante mi bootcamp en Soy Henry, empleando tecnologías como React, Redux, Node.js, Express, Sequelize y PostgreSQL. La aplicación utiliza la API Spoonacular para buscar y filtrar recetas, proporcionando detalles completos sobre ingredientes y pasos de preparación. Destaca por permitir a los usuarios crear y guardar sus propias recetas personalizadas en una base de datos. Este proyecto demuestra mis habilidades en desarrollo frontend y backend, así como mi capacidad para integrar APIs externas, brindando una experiencia culinaria interactiva y personalizada.",
+    "trendyShop": "Trendy Shop",
+    "trendyShopDescription": "Tienda de ropa e-commerce, proyecto grupal realizado para el bootcamp de Soy Henry.",
+    "ToDo": "Lista de Tareas",
+    "ToDoDescription": "Aplicación web, en donde tu puedes agregar, editar, borrar y cambiar el estado de la tarea, los datos se almacenan en localStorage para la persistencia de datos",
+    "wordle": "Clon de Wordle",
+    "wordleDescription": "Desarrollé un clon interactivo del popular juego de palabras 'Wordle' utilizando tecnologías web modernas. Utilicé React para la construcción del front-end, aprovechando sus componentes reutilizables y su eficiente manejo del estado. La estilización del juego se logró mediante el uso de SCSS",
+    "unearte": "Freelance Sitio Web para la Universidad UNEARTE",
+    "unearteDescription": ""
+  },
+  "formErrors": {
+    "generic": "Algo salió mal. Por favor, inténtalo de nuevo más tarde."
+  }
 }

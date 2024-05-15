@@ -1,43 +1,48 @@
 {
-    "name": "Marquez Maximiliano",
-    "role": "Full Stack Developer",
-    "section1": "About",
-    "section2": "Skills",
-    "section3": "Projects",
-    "section4": "Contact",
-    "about": {
-        "paragraph1": "Hello! I'm Maximiliano, an enthusiastic programmer eager to explore exciting career opportunities to kickstart my journey in the tech world. I stand out for my passion and commitment to programming, where I've developed strong skills in HTML, CSS, JavaScript, React, Redux, Node.js, Sequelize and PosgreSQL.",
-        "paragraph2": "My ability to quickly adapt to the work environment and my willingness to learn continuously are aspects I consider crucial for my professional growth. I am a proactive and dedicated individual, always ready to take on new challenges and tackle them with determination.",
-        "paragraph3": "Beyond the coding realm, I love maintaining an active lifestyle. Engaging in sports not only helps me strike a healthy balance between mind and body but also reinforces my ability to work in teams and achieve common goals.",
-        "paragraph4": "I am excited about the opportunity to contribute my programming passion and eagerness to learn to a dynamic team. I look forward to applying my skills and continuing my professional development in a stimulating environment!"
+  "name": "Marquez Maximiliano",
+  "role": "Full Stack Developer",
+  "section1": "About",
+  "section2": "Skills",
+  "section3": "Projects",
+  "section4": "Contact",
+  "about": {
+    "paragraph1": "Hello! I'm Maximiliano, an enthusiastic programmer eager to explore exciting career opportunities to kickstart my journey in the tech world. I stand out for my passion and commitment to programming, where I've developed strong skills in HTML, CSS, JavaScript, React, Redux, Node.js, Sequelize and PosgreSQL.",
+    "paragraph2": "My ability to quickly adapt to the work environment and my willingness to learn continuously are aspects I consider crucial for my professional growth. I am a proactive and dedicated individual, always ready to take on new challenges and tackle them with determination.",
+    "paragraph3": "Beyond the coding realm, I love maintaining an active lifestyle. Engaging in sports not only helps me strike a healthy balance between mind and body but also reinforces my ability to work in teams and achieve common goals.",
+    "paragraph4": "I am excited about the opportunity to contribute my programming passion and eagerness to learn to a dynamic team. I look forward to applying my skills and continuing my professional development in a stimulating environment!"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "backend": "Backend"
+  },
+  "contact": {
+    "title": "Send me a message!",
+    "subtitle": "Got a question or proposal, or just want to say hello? Go ahead.",
+    "labels": {
+      "name": "Name:",
+      "email": "Email Address:",
+      "message": "Message:"
     },
-    "skills": {
-        "title": "Skills",
-        "frontend": "Frontend",
-        "backend": "Backend"
-    },
-    "contact": {
-        "title": "Send me a message!",
-        "subtitle": "Got a question or proposal, or just want to say hello? Go ahead.",
-        "labels": {
-            "name": "Name:",
-            "email": "Email Address:",
-            "message": "Message:"
-        },
-        "button": "Send me a message"
-    },
-    "projects": {
-        "title": "Projects",
-        "food": "PI Food - Soy Henry",
-        "foodDescription": "I developed an application during my Soy Henry bootcamp, utilizing technologies such as React, Redux, Node.js, Express, Sequelize, and PostgreSQL. The application leverages the Spoonacular API for recipe search and filtering, providing comprehensive details on ingredients and preparation steps. It stands out by enabling users to create and save their custom recipes in a database. This project showcases my skills in both frontend and backend development, along with my ability to integrate external APIs, delivering an interactive and personalized culinary experience.",
-        "trendyShop": "Trendy Shop",
-        "trendyShopDescription": "Web app e-commerce clothing store, group project carried out for the Soy Henry bootcamp.",
-        "ToDo": "ToDo List",
-        "ToDoDescription": "Web app to-do list, where you can add, edit, delete and change the status of the task, the data is stored in localStorage for data persistence",
-        "wordle": "Wordle Clone",
-        "wordleDescription": "I developed an interactive clone of the popular word game 'Wordle' using modern web technologies. I utilized React for building the front-end, leveraging its reusable components and efficient state management. The game's styling was achieved through the use of SCSS"
-    },
-    "formErrors": {
-        "generic": "Something went wrong. Please try again later."
-    }
+    "button": "Send me a message"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "projects": {
+    "title": "Projects",
+    "food": "PI Food - Soy Henry",
+    "foodDescription": "I developed an application during my Soy Henry bootcamp, utilizing technologies such as React, Redux, Node.js, Express, Sequelize, and PostgreSQL. The application leverages the Spoonacular API for recipe search and filtering, providing comprehensive details on ingredients and preparation steps. It stands out by enabling users to create and save their custom recipes in a database. This project showcases my skills in both frontend and backend development, along with my ability to integrate external APIs, delivering an interactive and personalized culinary experience.",
+    "trendyShop": "Trendy Shop",
+    "trendyShopDescription": "Web app e-commerce clothing store, group project carried out for the Soy Henry bootcamp.",
+    "ToDo": "ToDo List",
+    "ToDoDescription": "Web app to-do list, where you can add, edit, delete and change the status of the task, the data is stored in localStorage for data persistence",
+    "wordle": "Wordle Clone",
+    "wordleDescription": "I developed an interactive clone of the popular word game 'Wordle' using modern web technologies. I utilized React for building the front-end, leveraging its reusable components and efficient state management. The game's styling was achieved through the use of SCSS",
+    "unearte": "Freelance Web side Unearte - University ",
+    "unearteDescription": ""
+  },
+  "formErrors": {
+    "generic": "Something went wrong. Please try again later."
+  }
 }
