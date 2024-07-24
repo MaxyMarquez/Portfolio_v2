@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <>
-      <section id="section5" className="grid place-content-center w-full py-5">
+      <section id="section4" className="grid place-content-center w-full py-5">
         <h1 className="text-center text-red-400 text-3xl lg:text-5xl font-mono ">
           {t("contact.title")}
         </h1>
